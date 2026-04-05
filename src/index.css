@@ -24,42 +24,39 @@
 
 :root {
   font-family: system-ui, -apple-system, sans-serif;
-  background-color: #FDF8E1;
-  color: #2D2A26;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  /* Warm color palette */
+  --background: #FDF8E1;
+  --foreground: #2D2A26;
+  --card: #fdf6d3;
+  --card-foreground: #2D2A26;
+  --popover: #FDF8E1;
+  --popover-foreground: #2D2A26;
+  --primary: #2D2A26;
+  --primary-foreground: #FDF8E1;
+  --secondary: #F5E6A3;
+  --secondary-foreground: #2D2A26;
+  --muted: #f5f0d0;
+  --muted-foreground: #78716c;
+  --accent: #F5E6A3;
+  --accent-foreground: #2D2A26;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #e8dda0;
+  --input: #e8dda0;
+  --ring: #F5E6A3;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #fdf6d3;
+  --sidebar-foreground: #2D2A26;
+  --sidebar-primary: #2D2A26;
+  --sidebar-primary-foreground: #FDF8E1;
+  --sidebar-accent: #F5E6A3;
+  --sidebar-accent-foreground: #2D2A26;
+  --sidebar-border: #e8dda0;
+  --sidebar-ring: #F5E6A3;
 }
 
 body {
